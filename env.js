@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("node:path");
 
 const binaryZip = {
     "darwin-x64": "osx-x86_64.zip",

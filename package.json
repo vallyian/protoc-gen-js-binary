@@ -1,6 +1,5 @@
 {
     "name": "protoc-gen-js-binary",
-    "homepage": "https://github.com/vallyian/protoc-gen-js-binary#readme",
     "description": "Downloads latest Google Protocol Buffers Javascript generator binary wrapped as npm package",
     "keywords": [
         "download",
@@ -20,6 +19,7 @@
         "type": "git",
         "url": "https://github.com/vallyian/protoc-gen-js-binary.git"
     },
+    "homepage": "https://github.com/vallyian/protoc-gen-js-binary#readme",
     "bugs": {
         "url": "https://github.com/vallyian/protoc-gen-js-binary/issues"
     },
@@ -38,7 +38,6 @@
     "files": [
         "env.js",
         "index.d.ts",
-        "index.js",
         "install.js"
     ]
 }
