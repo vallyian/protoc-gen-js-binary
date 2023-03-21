@@ -34,7 +34,7 @@ function install() {
     const moveBinary = () => fs.promises.rename(tmpBinFile, env.binary).then(() => fs.existsSync(env.binary)
         || Promise.reject(`binary "${env.binary} not available"`));
     const makeBinaryExecutable = () => fs.promises.access(env.binary, fs.constants.X_OK).catch(({ code }) => code === "EACCES"
-        ? fs.promises.chmod(env.binary, 0o775)
+        ? fs.promises.chmod(env.binary, 0o770)
         : Promise.reject(`binary "${env.binary} not executable"`));
     const storeBinaryVersion = () => fs.promises.writeFile(
         "package.json",
