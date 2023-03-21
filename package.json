@@ -12,7 +12,7 @@
         "protoc-gen-js",
         "binary"
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "vallyian@gmail.com",
     "license": "MIT",
     "repository": {
