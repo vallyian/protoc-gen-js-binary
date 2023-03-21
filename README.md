@@ -53,7 +53,9 @@ require("protoc-gen-js-binary").version;
 See official [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript/releases) download page.
 
 * osx-x86_64.zip
+* osx-aarch_64.zip
 * linux-x86_32.zip
 * linux-x86_64.zip
+* linux-aarch_64.zip
 * win32.zip
 * win64.zip
